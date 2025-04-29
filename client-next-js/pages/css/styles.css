@@ -1,0 +1,120 @@
+h1 {
+    user-select: none;
+}
+
+a {
+    user-select: none;
+}
+
+.button-a {
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(255, 165, 0);
+    padding: 10px;
+    border: 1px solid gold;
+    margin: 0 10px 0 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-a:hover {
+    background: rgba(255, 165, 0, .5);
+}
+
+.main-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    align-self: center;
+}
+
+.wrapper {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 0;
+    padding: 50px;
+    border: 2px solid rgba(100, 100, 100, .3);
+    border-radius: 20px;
+}
+
+.inputs {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.action-button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(255, 165, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: rgba(255, 165, 0, .6);
+}
+
+.go-register-button {
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    color: gray;
+    background-color: transparent;
+}
+
+.go-register-button:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.switch-log {
+    font-size: 16px;
+    margin: 2px;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: gray;
+    text-decoration: underline;
+    user-select: none;
+}
+
+.switch-log:hover {
+    color: blue;
+}
+
+.down-buttons-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.input-sign {
+    align-self: flex-start;
+    margin: 0 0 0 50px;
+    padding: 0;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+}

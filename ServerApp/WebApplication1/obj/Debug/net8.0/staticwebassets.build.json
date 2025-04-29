@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jSFgZRVphoFy4b2fFQkOx/S+RZFIjAM0G0XprKmKwls=",
+  "Source": "WebAuthnServerApp",
+  "BasePath": "_content/WebAuthnServerApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
